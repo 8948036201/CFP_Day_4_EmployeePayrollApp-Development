@@ -1,0 +1,33 @@
+2022-02-09 21:47:25.408  INFO 572 --- [restartedMain] c.b.e.EmployeeParollApplication          : Starting EmployeeParollApplication using Java 17 on AZHAR with PID 572 (C:\Users\AZHAR\IdeaProjects\EmployeeParollApp\target\classes started by AZHAR in C:\Users\AZHAR\IdeaProjects\EmployeeParollApp)
+2022-02-09 21:47:25.410 DEBUG 572 --- [restartedMain] c.b.e.EmployeeParollApplication          : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-09 21:47:25.410  INFO 572 --- [restartedMain] c.b.e.EmployeeParollApplication          : No active profile set, falling back to default profiles: default
+2022-02-09 21:47:28.162  WARN 572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-09 21:47:29.205  INFO 572 --- [restartedMain] c.b.e.EmployeeParollApplication          : Started EmployeeParollApplication in 4.239 seconds (JVM running for 5.178)
+2022-02-09 21:47:29.216  INFO 572 --- [restartedMain] c.b.e.EmployeeParollApplication          : Employee Payroll App Started
+2022-02-09 22:13:07.688  INFO 12628 --- [restartedMain] c.b.e.EmployeeParollApplication          : Starting EmployeeParollApplication using Java 17 on AZHAR with PID 12628 (C:\Users\AZHAR\IdeaProjects\EmployeeParollApp\target\classes started by AZHAR in C:\Users\AZHAR\IdeaProjects\EmployeeParollApp)
+2022-02-09 22:13:07.689  INFO 12628 --- [restartedMain] c.b.e.EmployeeParollApplication          : No active profile set, falling back to default profiles: default
+2022-02-09 22:13:07.739  INFO 12628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-09 22:13:07.740  INFO 12628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-09 22:13:08.416  INFO 12628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-09 22:13:08.432  INFO 12628 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-02-09 22:13:09.008  INFO 12628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-09 22:13:09.017  INFO 12628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-09 22:13:09.017  INFO 12628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-09 22:13:09.162  INFO 12628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-09 22:13:09.162  INFO 12628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1421 ms
+2022-02-09 22:13:09.259  INFO 12628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-09 22:13:09.587  INFO 12628 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-09 22:13:09.642  INFO 12628 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-09 22:13:09.713  INFO 12628 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-09 22:13:09.846  INFO 12628 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-09 22:13:09.956  INFO 12628 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-09 22:13:10.084  INFO 12628 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-09 22:13:10.095  INFO 12628 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-09 22:13:10.154  WARN 12628 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-09 22:13:10.450  INFO 12628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-09 22:13:10.494  INFO 12628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-09 22:13:10.507  INFO 12628 --- [restartedMain] c.b.e.EmployeeParollApplication          : Started EmployeeParollApplication in 3.259 seconds (JVM running for 4.202)
+2022-02-09 22:13:10.510  INFO 12628 --- [restartedMain] c.b.e.EmployeeParollApplication          : Employee Payroll App Started
+2022-02-09 22:15:56.345  INFO 12628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-09 22:15:56.355  INFO 12628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-09 22:15:56.401  INFO 12628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
